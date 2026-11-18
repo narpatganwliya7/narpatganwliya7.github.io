@@ -91,9 +91,9 @@ b { color: var(--ink); font-weight: 600; }
               radial-gradient(rgba(255, 255, 255, .06) 1px, transparent 1.4px) 0 0 / 24px 24px; }
 .hero-in { padding: 120px 0 90px; }
 .pill { display: inline-flex; align-items: center; gap: 10px; margin: 0; padding: 9px 16px; border-radius: 999px;
-  border: 1px solid rgba(52, 211, 153, .35); background: rgba(52, 211, 153, .08); color: #e8fff5; font-size: 14px; font-weight: 500; }
-.dot { width: 8px; height: 8px; border-radius: 50%; background: #34d399; box-shadow: 0 0 0 0 rgba(52, 211, 153, .6); animation: ping 2.4s infinite; }
-@keyframes ping { 70% { box-shadow: 0 0 0 9px rgba(52, 211, 153, 0); } 100% { box-shadow: 0 0 0 0 rgba(52, 211, 153, 0); } }
+  border: 1px solid rgba(226, 73, 43, .4); background: rgba(226, 73, 43, .1); color: #fff1ec; font-size: 14px; font-weight: 500; }
+.dot { width: 8px; height: 8px; border-radius: 50%; background: #e2492b; box-shadow: 0 0 0 0 rgba(226, 73, 43, .6); animation: ping 2.4s infinite; }
+@keyframes ping { 70% { box-shadow: 0 0 0 9px rgba(226, 73, 43, 0); } 100% { box-shadow: 0 0 0 0 rgba(226, 73, 43, 0); } }
 .eyebrow { color: var(--muted-d); margin: 34px 0 14px; }
 .hero h1 { font-size: clamp(44px, 7vw, 104px); line-height: .96; font-weight: 800; max-width: 11ch; letter-spacing: -.035em; }
 .hero h1 em { font-style: normal; color: var(--verm); }
